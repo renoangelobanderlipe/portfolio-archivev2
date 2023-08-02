@@ -1,5 +1,3 @@
-
-
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { PAGES } from './routes';
@@ -10,5 +8,3 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     {PAGES.map((item) => item.component)}
   </React.StrictMode>
 )
-
-
