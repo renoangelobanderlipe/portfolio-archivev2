@@ -1,9 +1,8 @@
-import React from "react";
-import { BACKGROUND_IMAGE } from "../utils/background";
-import { ContainerWrapper } from "./ContainerWrapper";
-import { ButtonComponent } from "./generic/ButtonComponent";
+import React from 'react';
+import { ButtonComponent } from '../components/generic/ButtonComponent';
 
-export const HeroSectionComponent = () => {
+
+export const HeroSectionPage = () => {
   return (
     <>
       <div className='flex flex-col bg-hero h-[100vh] bg-no-repeat bg-cover py-[200px] px-150 gap-48'>
