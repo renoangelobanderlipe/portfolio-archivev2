@@ -1,18 +1,18 @@
 export const NAVIGATIONS = Object.freeze([
   {
     'name': 'Home',
-    'path': '#home',
+    'path': 'hero',
   },
   {
     'name': 'About',
-    'path': '#about',
+    'path': 'about',
   },
   {
     'name': 'Work',
-    'path': '#work',
+    'path': 'work',
   },
   {
     'name': 'Skills',
-    'path': '#skills',
+    'path': 'skills',
   },
 ]);
