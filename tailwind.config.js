@@ -83,6 +83,18 @@ export default {
         letterSpacing: '6.2px',
         fontWeight: 'normal',
       }],
+      'paragraph': [
+        '16px', {
+          lineHeight: 'normal',
+          letterSpacing: '0.64px',
+          fontWeight: '400',
+        }],
+      'chip': [
+        '12px', {
+          lineHeight: 'normal',
+          letterSpacing: '0.46px',
+          fontWeight: '500',
+        }],
       'tablet-h1': ['75px', {
         lineHeight: 'auto',
         letterSpacing: 'auto',
@@ -204,7 +216,15 @@ export default {
         'body-text': '#BAC4DD',
       },
       backgroundImage: {
-        'hero': "url('images/bg-hero.png')"
+        'hero': "url('images/bg-hero.png')",
+        'profile': "url('images/profile.png')",
+        'javascript': "url('icons/javascript.svg')",
+        'git': "url('icons/git.svg')",
+        'github': "url('icons/github.svg')",
+        'gitlab': "url('icons/gitlab.svg')",
+        'laravel': "url('icons/laravel.svg')",
+        'react': "url('icons/react.svg')",
+        'tailwind': "url('icons/tailwindcss.svg')",
       }
     },
   },
