@@ -7,4 +7,7 @@
     font-family: Urbanist, system-ui, sans-serif;
     font-family: 'Public Sans', system-ui, sans-serif;
   }
+  .skills-card {
+    background: linear-gradient(135deg, rgba(0, 41, 122, 0.05) 0%, rgba(69, 25, 91, 0.13) 100%), #262D3F;
+  }
 }
