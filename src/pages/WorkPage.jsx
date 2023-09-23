@@ -4,7 +4,6 @@ import { CardComponent } from "../components/generic/CardComponent";
 import { ChipComponent } from "../components/generic/ChipComponent";
 
 const WorkPage = () => {
-  console.log('test', Array(5));
   return (
     <ContainerWrapper style={'bg-hero bg-no-repeat bg-cover h-full'}>
       <div className="flex flex-col gap-[80px]">

@@ -216,15 +216,8 @@ export default {
         'body-text': '#BAC4DD',
       },
       backgroundImage: {
-        'hero': "url('images/bg-hero.png')",
-        'profile': "url('images/profile.png')",
-        'javascript': "url('icons/javascript.svg')",
-        'git': "url('icons/git.svg')",
-        'github': "url('icons/github.svg')",
-        'gitlab': "url('icons/gitlab.svg')",
-        'laravel': "url('icons/laravel.svg')",
-        'react': "url('icons/react.svg')",
-        'tailwind': "url('icons/tailwindcss.svg')",
+        'hero': "url('/images/bg-hero.png')",
+        'profile': "url('/images/profile.png')",
       }
     },
   },
