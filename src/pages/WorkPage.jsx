@@ -27,10 +27,33 @@ const WorkPage = () => {
                 <div className="flex justify-between  ">
                   <ChipComponent
                     title={values.type}
-                    style={"rounded-[8px] bg-primary-200 text-chip uppercase text-primary-900"}
+                    style={
+                      "rounded-[8px] bg-primary-200 text-chip uppercase text-primary-900"
+                    }
                   />
-                  <div className=" text-headings">
-                    <Icon icon="bx:link" fontSize={"30px"}></Icon>
+                  <div className="text-headings flex flex-row ">
+                    <div>
+                      {values.github_url ? (
+                        <a
+                          href={values.github_url}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <Icon icon="fe:github" fontSize={"30px"} />
+                        </a>
+                      ) : (
+                        <></>
+                      )}
+                    </div>
+                    <div>
+                      {values.link ? (
+                        <a href={values.link} target="_blank" rel="noreferrer">
+                          <Icon icon="bx:link" fontSize={"30px"} />
+                        </a>
+                      ) : (
+                        <></>
+                      )}
+                    </div>
                   </div>
                 </div>
 
@@ -39,7 +62,7 @@ const WorkPage = () => {
                     <h5 className="text-h5 text-headings">{values.title}</h5>
                     {/* <p className=" text-white font-[300] text-[14px]">{values.created_at}</p> */}
                   </div>
-                  
+
                   <p className="text-headings text-paragraph">
                     {values.description}
                   </p>
