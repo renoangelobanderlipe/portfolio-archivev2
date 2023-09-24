@@ -1,4 +1,3 @@
-import React from "react";
 import { ButtonComponent } from "../components/generic/ButtonComponent";
 import { ContainerWrapper } from "../components/ContainerWrapper";
 

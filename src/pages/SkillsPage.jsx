@@ -13,7 +13,7 @@ const SkillsPage = () => {
               Things That Helped Me Grow
             </section>
             <h1 className=" text-h2 text-headings uppercase">
-              Skills and Experiences
+            Skills and Experiences
             </h1>
           </div>
           <div className="grid grid-cols-2 ">
