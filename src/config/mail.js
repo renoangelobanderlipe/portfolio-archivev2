@@ -1,0 +1,1 @@
+export const mailto = 'mailto:personal.renoangelo@gmail.com'

@@ -19,9 +19,11 @@ export default {
       'desktop': '1728px',
     },
     padding: {
-      '150': '150px',
+
       '200': '200px',
-      '100': '100px',
+      '150': '16.5%',
+      '100': '10%',
+      'phone' : '4%',
       '64': '64px',
       '48': '48px',
       '24': '24px',
@@ -93,7 +95,7 @@ export default {
         '12px', {
           lineHeight: 'normal',
           letterSpacing: '0.46px',
-          fontWeight: '500',
+          fontWeight: '700',
         }],
       'tablet-h1': ['75px', {
         lineHeight: 'auto',
@@ -165,7 +167,7 @@ export default {
         letterSpacing: '4.34px',
         fontWeight: '600',
       }],
-      'phone-body': ['16px', {
+      'phone-body': ['18px', {
         lineHeight: '1.5em',
         fontWeight: '400',
       }],

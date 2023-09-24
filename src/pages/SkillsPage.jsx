@@ -5,7 +5,7 @@ import { Icon } from "@iconify/react";
 
 const SkillsPage = () => {
   return (
-    <ContainerWrapper style={"bg-background h-[100vh]"}>
+    <ContainerWrapper style={"py-[100px] bg-background h-[100vh]"}>
       <div className="flex gap-80">
         <div className="flex flex-col w-full gap-[48px]">
           <div className="flex flex-col gap-16">

@@ -1,4 +1,4 @@
-const fileName = 'Banderlipe_RenoAngelo-Resume.docx.pdf';
+const fileName = 'Banderlipe_RenoAngelo-Resume.pdf';
 const fileLocation = `files/${fileName}`;
 
 export const downloadResume = () => {
