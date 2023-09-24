@@ -43,4 +43,26 @@ export const WORKS = [
     ],
     github_url: 'https://github.com/renoangelobanderlipe/esalakanmi'
   },
+  {
+    id: 4,
+    type: 'Script',
+    title: 'React Tailwind Script',
+    description: 'React Tailwind Script for starting your new project.',
+    created_at: '',
+    tags: [
+      'Shell',
+    ],
+    github_url: 'https://github.com/renoangelobanderlipe/development-starter-template/tree/tailwind-react'
+  },
+  {
+    id: 5,
+    type: 'Web Application',
+    title: 'translator',
+    description: 'A simple translator web application made with React, Tailwind CSS and Flowbite.',
+    created_at: '',
+    tags: [
+      'React', 'Tailwind CSS', 'Flowbite'
+    ],
+    link: 'https://clementine-translator.vercel.app/'
+  },
 ]
