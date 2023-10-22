@@ -4,11 +4,12 @@ import { mailto } from "../config/mail";
 
 export const HeroSectionPage = () => {
   return (
-    <ContainerWrapper style={"bg-hero bg-no-repeat bg-cover py-[150px] text-white gap-48"}>
-      <div className="flex flex-col laptop:w-[676px] gap-24">
-        <div>
+    <ContainerWrapper style={"bg-hero bg-no-repeat bg-cover py-[200px] text-white gap-48"}>
+      <div className="flex flex-col gap-24">
+        <div className="font-heading laptop:w-[80%]">
           <h4 className="font-heading text-primary-500 font-[700] leading-normal tracking-[4.68px] text-[24px]">
-            Junior Developer
+            {/* Junior Developer */}
+            Hi, My Name is
           </h4>
           <h1 className="text-phone-h1 tablet:text-tablet-h1 laptop:text-h1 uppercase text-headings">
             Reno Angelo Banderlipe
@@ -16,8 +17,9 @@ export const HeroSectionPage = () => {
         </div>
 
         <p className="text-phone-body laptop:text-body-text font-body-text text-[20px]">
-          I am currently a Junior Programmer working with a passion to develop a
-          quality and scalable code.
+          {/* I am currently a Junior Programmer working with a passion to develop a
+          quality and scalable code. */}
+          I'm a passionate and aspiring junior programmer eager to embark on an exciting journey in the world of software development.
         </p>
       </div>
       <div className="flex flex-col-reverse phone-lg:flex-row gap-16">

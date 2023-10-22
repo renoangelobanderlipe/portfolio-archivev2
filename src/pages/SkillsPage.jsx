@@ -5,19 +5,19 @@ import { Icon } from "@iconify/react";
 
 const SkillsPage = () => {
   return (
-    <ContainerWrapper style={"py-[100px] bg-background h-[100vh]"}>
-      <div className="flex gap-80">
+    <ContainerWrapper style={"py-[100px] bg-background"}>
+      <div className="flex flex-col phone-lg:flex-row gap-[80px]">
         <div className="flex flex-col w-full gap-[48px]">
           <div className="flex flex-col gap-16">
             <section className="text-h5 text-primary-500">
               Things That Helped Me Grow
             </section>
-            <h1 className=" text-h2 text-headings uppercase">
+            <h1 className="text-phone-h1 laptop:text-h1 uppercase text-headings gap-[24px]">
             Skills and Experiences
             </h1>
           </div>
-          <div className="grid grid-cols-2 ">
-            <div className="text-h5 uppercase text-primary-100">
+          <div className="grid grid-cols-1 tablet:grid-cols-2 ">
+            <div className="text-h5 uppercase text-primary-200">
               New Media Services
             </div>
             <div className="flex flex-col gap-8">

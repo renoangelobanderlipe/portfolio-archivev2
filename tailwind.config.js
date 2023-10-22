@@ -7,7 +7,7 @@ export default {
   ],
   theme: {
     'fontFamily': {
-      'heading': ['Urbanist', 'sans-serif'],
+      'heading': ['Inter', 'sans-serif'],
       'body-text': ['Public Sans', 'sans-serif'],
     },
     screens: {
@@ -50,7 +50,7 @@ export default {
       'card': '20px'
     },
     fontSize: {
-      'h1': ['64px', {
+      'h1': ['75px', {
         lineHeight: 'normal',
         letterSpacing: '2.56px',
         fontWeight: '700',
@@ -132,7 +132,7 @@ export default {
         letterSpacing: 'auto',
         fontWeight: 'normal',
       }],
-      'phone-h1': ['45px', {
+      'phone-h1': ['50px', {
         lineHeight: 'auto',
         letterSpacing: 'auto',
         fontWeight: '700',

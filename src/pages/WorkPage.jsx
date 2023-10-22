@@ -13,7 +13,7 @@ const WorkPage = () => {
           <h4 className="font-heading text-primary-500 font-[700] leading-normal tracking-[4.68px] text-[24px]">
             Portfolio
           </h4>
-          <h1 className="text-h1 uppercase text-headings">My Side Hustles</h1>
+          <h1 className="text-phone-h1 laptop:text-h1 uppercase text-headings">My Side Hustles</h1>
           <p className="text-body-text font-body-text text-[20px]">
             Projects that I created and was involved in during my college and
             free time.

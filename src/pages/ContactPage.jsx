@@ -7,22 +7,21 @@ import { mailto } from "../config/mail";
 const ContactPage = () => {
   return (
     <ContainerWrapper style={"py-[100px] bg-hero bg-no-repeat bg-cover"}>
-      <div className="flex gap-[80px]">
+      <div className="flex flex-col phone-lg:flex-row gap-48 phone-lg:gap-[80px]">
         <div className="w-full">
           <div className="flex flex-col gap-24">
             <div className="flex flex-col gap-16 ">
-              <p className="text-h5 text-primary-500">Portfolio</p>
-              <div className="text-headings text-h2 uppercase  ">
-                My side hustles
+              <p className="text-h5 text-primary-500">What’s next?</p>
+              <div className="text-phone-h1 laptop:text-h1 uppercase text-headings">
+              Get In Touch
               </div>
             </div>
           </div>
           <div className="text-body text-body-text">
-            Projects that I created and was involved in during my college and
-            free time.
+          Ready to turn your project ideas into reality? Let's collaborate and bring your vision to life! Whether it's web development, mobile apps, or custom software, I'm here to transform your concepts into functional and elegant solutions. Contact me today, and let's code your future together!
           </div>
         </div>
-        <div className={"flex justify-center items-center w-full"}>
+        <div className={"flex justify-center items-center"}>
           {/* <ButtonComponent style={'w-[184px]'}>
             Hire Me
           </ButtonComponent> */}
