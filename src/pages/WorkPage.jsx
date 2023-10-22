@@ -20,7 +20,7 @@ const WorkPage = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-3 gap-24 w-full ">
+        <div className="grid grid-cols-1 phone-lg:grid-cols-2 laptop:grid-cols-3 gap-24 w-full ">
           {WORKS.map((values, key) => (
             <CardComponent key={key}>
               <div className="flex flex-col gap-48">
@@ -68,7 +68,7 @@ const WorkPage = () => {
                   </p>
                 </div>
 
-                <div className={`grid grid-cols-3 gap-16 w-full `}>
+                <div className={`grid grid-cols-2 phone:grid-cols-3 gap-16 w-full `}>
                   {values.tags.map((val, key) => (
                     <ChipComponent
                       style={
