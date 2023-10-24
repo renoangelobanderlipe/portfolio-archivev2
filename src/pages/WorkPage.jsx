@@ -1,9 +1,10 @@
-import React from "react";
+import React, { Fragment } from "react";
 import { ContainerWrapper } from "../components/ContainerWrapper";
 import { CardComponent } from "../components/generic/CardComponent";
 import { ChipComponent } from "../components/generic/ChipComponent";
 import { WORKS } from "../data/works";
 import { Icon } from "@iconify/react";
+import { ButtonComponent } from "../components/generic/ButtonComponent";
 
 const WorkPage = () => {
   return (
@@ -60,7 +61,6 @@ const WorkPage = () => {
                 <div className="flex flex-col gap-[16px]">
                   <div className="flex flex-col tablet:flex-row justify-between items-center">
                     <h5 className="text-h5 text-headings">{values.title}</h5>
-                    {/* <p className=" text-white font-[300] text-[14px]">{values.created_at}</p> */}
                   </div>
 
                   <p className="text-headings text-paragraph">
@@ -82,7 +82,18 @@ const WorkPage = () => {
               </div>
             </CardComponent>
           ))}
+
         </div>
+      </div>
+      <div className="flex items-center justify-center ">
+
+        <ButtonComponent
+          style={
+            "hidden laptop:flex px-20 h-button-m  bg-primary-500 font-body-text text-primary-100 rounded-[30px] text-btn-m uppercase hover:bg-primary-800 hover:text-primary-500 w-[184px]"
+          }
+        >
+          See All
+        </ButtonComponent>
       </div>
     </ContainerWrapper>
   );
