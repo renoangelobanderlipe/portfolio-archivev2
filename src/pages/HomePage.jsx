@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useEffect } from "react";
 import { NavbarComponent } from "../components/NavbarComponent";
 import { HeroSectionPage } from "./HeroSectionPage";
 import { AboutPage } from "./AboutPage";
@@ -7,6 +7,17 @@ import SkillsPage from "./SkillsPage";
 import ContactPage from "./ContactPage";
 
 const HomePage = () => {
+
+  useEffect(() => {
+    function redirectUrl() {
+      if (window.confirm("Portfolio update! My portfolio has moved to a new location: https://renoangelo.vercel.app. Click Ok to visit the new site.")) {
+
+        window.location.href = "https://renoangelo.vercel.app/";
+      }
+    }
+
+    redirectUrl();
+  }, []);
   return (
     <Fragment>
       <NavbarComponent />
